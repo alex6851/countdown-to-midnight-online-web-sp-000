@@ -4,7 +4,8 @@ def countdown(number)
     puts "#{number} SECOND(S)!"
     number -= 1
   end
-  number == 0 ? "HAPPY NEW YEAR!" : countown(number)
+  #number == 0 ? "HAPPY NEW YEAR!" : countown(number)
+  "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep(number)
@@ -13,5 +14,6 @@ def countdown_with_sleep(number)
     puts "#{number} SECOND(S)!"
     number -= 1
   end
-  number == 0 ? "HAPPY NEW YEAR!" : countown(number)
+  #number == 0 ? "HAPPY NEW YEAR!" : countown(number)
+  "HAPPY NEW YEAR!"
 end
